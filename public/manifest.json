@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "ohitorisama",
+  "description": "Set the default number of people to 1 when searching for travel sites.",
+  "version": "0.0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.jalan.net*"],
+      "js": ["js/vendor.js", "js/content_script.js"]
+    }
+  ]
+}
