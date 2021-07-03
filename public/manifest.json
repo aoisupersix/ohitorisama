@@ -5,6 +5,12 @@
   "description": "Set the default number of people to 1 when searching for travel sites.",
   "version": "0.0.1",
 
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
   "permissions": [
     "storage"
   ],
