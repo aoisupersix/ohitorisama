@@ -12,12 +12,12 @@ window.addEventListener('load', async () => {
     // NOTE:
     // The number of people seems to change dynamically after the page loads,
     // so if you change it right after the page loads, it won't be reflected.
-    // So, I'm trying to delay the process by about 0.5 seconds to update it (very messy).
+    // So, I'm trying to delay the process by about 0.1 seconds to update it (very messy).
     setTimeout(async () => {
       const defaultValue = await store.get(({ numOfPeople }) => numOfPeople ?? '1')
       numOfPeople.value = defaultValue
       numOfPeople.dispatchEvent(new Event('change'))
-    }, 500)
+    }, 100)
 
     // Save the number of people selected by the user to local storage.
     numOfPeople.addEventListener('change', () => {
