@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aoisupersix/ohitorisama#readme",
   "dependencies": {
+    "@extend-chrome/storage": "^1.5.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "eslint": "^7.29.0",
