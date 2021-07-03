@@ -1,0 +1,4 @@
+{
+  "name": { "message": "Ohitorisama" },
+  "description": { "message": "宿泊予約サイトのデフォルト予約人数を1人に設定(+α)します。" }
+}
