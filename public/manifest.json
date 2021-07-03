@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.jalan.net/*"],
-      "js": ["js/vendor.js", "js/content_script.js"]
+      "js": ["js/vendor.js", "js/jalan_contentscript.js"]
     }
   ]
 }
